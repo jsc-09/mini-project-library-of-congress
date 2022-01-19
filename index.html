@@ -20,7 +20,18 @@
         <h1 class="card-header">LIBRARY OF CONGRESS SEARCH ENGINE</h1>
         <!---FORM GOES HERE-->
         <input class="form-control-lg w-100" type="text" placeholder="search">
-        <button class="btn btn-large dropdown-toggle w-100 border border-secondary mt-3" type="button">Select a format...</button>
+        <button class="btn btn-large dropdown-toggle w-100 border border-secondary mt-3" type="button" id="selectFormat">Select a format...</button>
+        <div class="dropdown-menu" aria-labelledby="selectFormat">
+            <a class="dropdown-item" href="#">Maps</a>
+            <a class="dropdown-item" href="#">Audio</a>
+            <a class="dropdown-item" href="#">Photos</a>
+            <a class="dropdown-item" href="#">Manuscripts</a>  
+            <a class="dropdown-item" href="#">Newspapers</a>    
+            <a class="dropdown-item" href="#">Film & Videos</a>           
+            <a class="dropdown-item" href="#">Notated Music</a>        
+            <a class="dropdown-item" href="#">Websites</a>             
+        </div>
+            
         <button type="button" class="btn btn-info w-100  mt-3">Click Me!</button>
 
 
